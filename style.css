@@ -1,0 +1,80 @@
+/*
+Design by http://www.bluewebtemplates.com
+Released for free under a Creative Commons Attribution 3.0 License
+*/
+
+@charset "utf-8";
+body { margin:0; padding:0; width:100%; color:#fff; font:normal 12px/1.8em Arial, Helvetica, sans-serif;}
+html, .main { padding:0; margin:0; background:#3e879f url(images/bg.gif) repeat; }
+.clr { clear:both; padding:0; margin:0; width:100%; font-size:0px; line-height:0px;}
+h1 { margin:0; padding:12px 0; color:#1ea1cc; font:normal 40px/1.2em Arial, Helvetica, sans-serif;}
+h1 a, h1 a:hover { color:#1ea1cc; text-decoration:none;}
+h2 { font:bold 24px Arial, Helvetica, sans-serif; color:#fff; padding:8px 0; margin:8px 0;}
+p { margin:8px 0; padding:0 0 8px 0; font:normal 12px/1.8em Arial, Helvetica, sans-serif;}
+a { color:#fff; text-decoration:underline; padding:2px 4px;}
+a:hover { background-color:#1ea1cc;}
+a.nobg:hover { background:none; text-decoration:none;}
+
+.header, .hbg, .content, .menu_nav, .fbg, .footer, form, ol, ol li, ul, .content .mainbar, .content .sidebar { margin:0; padding:0;}
+.header_resize, .content_resize, .fbg_resize, .footer_resize { margin:0 auto; padding:0 40px; width:890px;}
+.fbg, .footer { padding:16px 0;}
+
+/* header */
+.header { background:url(images/header_bg.jpg) repeat-x top;}
+.header_resize { height:295px;}
+.header .logo { float:left; padding-top:12px;}
+
+/* menu */
+.menu_nav { height:52px; float:right; width:auto; padding-top:37px;}
+.menu_nav ul { width:auto; list-style:none;}
+.menu_nav ul li { margin:0 1px; float:left;}
+.menu_nav ul li a { display:block; margin:0; padding:22px 28px; color:#fff; text-decoration:none; font-weight:bold;}
+.menu_nav ul li a:hover, .menu_nav ul li.active a { background:url(images/menu_a.jpg) no-repeat center center; color:#1ea1cc;}
+
+/* content */
+.content { padding-bottom:16px;}
+.content_resize { padding:32px 40px;}
+.content img { padding:4px; border:1px solid #bbb;}
+.content img.ilf { margin-right:16px; float:left;}
+.content .mainbar { float:left; width:630px;}
+.content .mainbar .article, .content .sidebar .gadget {  margin:20; padding:0 0 16px 0;}
+.content .sidebar { float:right; width:236px;}
+ul.sb_menu, ul.ex_menu { margin:0; padding:0; list-style:none;}
+ul.sb_menu li, ul.ex_menu li { margin:0;}
+ul.sb_menu li { padding:4px 0;}
+ul.ex_menu li { padding:4px 0 8px;}
+ul.sb_menu li a, ul.ex_menu li a { text-decoration:none;}
+ul.sb_menu li a:hover, ul.ex_menu li a:hover { font-weight:bold;}
+ul.sb_menu li a:hover { text-decoration:underline;}
+ul.ex_menu li a:hover { text-decoration:none;}
+
+/* subpages */
+.content .mainbar .comment { margin:0; padding:16px 0 0 0;}
+.content .mainbar .comment img.userpic { border:1px solid #dedede; margin:10px 16px 0 0; padding:0; float:left;}
+
+/* fbg */
+.fbg { background-color:#18687d; color:#fff;}
+.fbg img { border:1px solid #fff;}
+.fbg .col { margin:0; float:left;}
+.fbg .c1 { padding:0 16px 0 0; width:286px;}
+.fbg .c2 { padding:0 16px; width:316px;}
+.fbg .c3 { padding:0 0 0 16px; width:220px;}
+.fbg .c1 img, .fbg_resize .c3 img { margin:4px;}
+.fbg .c3 img { margin:8px 16px 4px 0; padding:0; float:left;}
+
+/* footer */
+.footer { background-color:#194e5c;}
+.footer p.lf { margin:0; padding:4px 0; float:left; width:auto; line-height:1.5em;}
+ul.fmenu { margin:0; padding:2px 0; list-style:none; float:right; width:auto;}
+ul.fmenu li { margin:0; padding:0 4px; float:left;}
+ul.fmenu li a { text-decoration:none; padding:2px 6px;}
+ul.fmenu li a:hover, ul.fmenu li.active a { color:#1ea1cc; background:none;}
+ul.fmenu li a:hover { text-decoration:underline;}
+
+/* form */
+ol { list-style:none;}
+ol li { display:block; clear:both;}
+ol li label { display:block; margin:0; padding:16px 0 0 0;}
+ol li input.text { width:480px; border:1px solid #c0c0c0; margin:2px 0; padding:5px 2px; height:16px; background:#fff;}
+ol li textarea { width:480px; border:1px solid #c0c0c0; margin:2px 0; padding:2px; background:#fff;}
+ol li .send { margin:16px 0 0 0;}
