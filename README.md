@@ -35,7 +35,6 @@ After the analysis of this system we move to develop the decentralized system ar
 ![DB](https://user-images.githubusercontent.com/29123936/74404288-023b1c80-4e50-11ea-8979-d8bef7086df4.png)<br/><br/><br/>
 
 # Installation for Beginners
-# Installation for Beginners
 
 <b>I. INSTALLATION OF XAMPP SOFTWARE: </b>
 
